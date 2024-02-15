@@ -11,7 +11,7 @@ const ImageSlider = () => {
     setActiveIndex(activeIndex === data.length - 1 ? 0 : activeIndex + 1);
   };
 
-  console.log(data.map((item) => item));
+  // console.log(data.map((item) => item));
   return (
     <div className="flex justify-center">
       <div>
